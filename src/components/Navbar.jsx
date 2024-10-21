@@ -2,7 +2,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-import logo from '../assets/jovany_logo.png'; // Replace with your logo
+const logo = '/assets/jovany_logo.png'; // Updated path to reflect the public folder
 
 const Navbar = () => {
   return (

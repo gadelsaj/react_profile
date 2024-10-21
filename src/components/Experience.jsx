@@ -1,9 +1,9 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import projectImg1 from '../assets/projects/project-1.jpg'; // Use the images you mentioned
-import projectImg2 from '../assets/projects/project-2.jpg';
-import projectImg3 from '../assets/projects/project-3.jpg';
-import projectImg4 from '../assets/projects/project-4.jpg';
+const projectImg1 = '/assets/projects/project-1.jpg'; // Updated path
+const projectImg2 = '/assets/projects/project-2.jpg'; // Updated path
+const projectImg3 = '/assets/projects/project-3.jpg'; // Updated path
+const projectImg4 = '/assets/projects/project-4.jpg'; // Updated path
 
 const Experience = () => {
   return (

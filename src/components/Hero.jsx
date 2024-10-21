@@ -1,6 +1,6 @@
 import { HERO_CONTENT } from "../constants";
-import profilePic from "../assets/jovany_profile.png";
-import logo from "../assets/jovany_logo.png"; // Import your logo
+const profilePic = "/assets/jovany_profile.png"; // Updated path
+const logo = "/assets/jovany_logo.png"; // Updated path
 import { motion } from "framer-motion";
 
 const container = (delay) => ({
@@ -59,7 +59,7 @@ const Hero = () => {
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 1, delay: 1.2 }}
-              src={profilePic}
+              src={profilePic} // Updated path
               alt="Jovany Gadelsaid"
             />
           </div>

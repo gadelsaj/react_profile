@@ -1,7 +1,7 @@
 // src/components/About.jsx
 import React from 'react';
 import { motion } from 'framer-motion';
-import profileImg from '../assets/jovany_profile.jpg'; // Use your real profile image here
+const profileImg = '/assets/jovany_profile.jpg'; // Updated path to reference the public folder
 
 const About = () => {
   return (
